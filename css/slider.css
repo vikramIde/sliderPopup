@@ -1,0 +1,167 @@
+body{
+	/*overflow:hidden;*/
+	width:100%;
+	margin:10px auto;
+}
+
+p{
+	border-bottom: 1px dotted #d8d8d8;
+	padding-bottom: 15px;
+	font-size:17px;
+}
+.xxx{
+	position:fixed;
+}
+.container{
+	width: 90%;
+    padding: 1% 0% 5% 5%;
+}
+#slider{
+	/*width:500px;*/
+	top: 218px;
+	position:fixed;
+	min-height: 200px;
+}
+   
+#header{ 
+	width:260px;
+	float: left;
+	right:0px; 
+	border:1px solid #d8d8d8;
+	margin-left:0px;
+	padding:20px 40px;
+	border-radius:3px;
+	box-shadow: 0 0 8px gray;
+	background: #16a085;
+	color:white;
+	min-height: 300px;
+}
+
+
+#sidebar{
+   /* position:fixed;*/
+    float:left;
+    top: 33px;
+    right: 6px;
+    box-shadow: 0 0 8px gray;
+    transition-duration: 1s;
+}
+
+#sidebar1{
+	/*position: fixed;*/
+	float:left;
+    top: 35px;
+    right: 342px;/*
+    background: #16a085;*/
+    box-shadow: 0 0 8px gray;
+    color: white;
+    transition-duration: 1s;
+}
+
+
+h3{
+	font-family: 'Roboto Slab', serif;
+}
+
+input[type=text]{ 
+	margin-top: 10px;
+	padding:6px;
+	width:100%;
+	font-size:15px;
+	border-radius:2px;
+	border:3px solid #98d0f1;
+}
+
+h4{
+	font-size:15px;
+}
+div#title{
+	position:fixed;
+	top:300px;
+	left:650px;
+	}
+	
+select{
+	padding:6px;
+	width:100%;
+	font-size:15px;
+	border-radius:2px;
+	border:3px solid #98d0f1;
+}
+
+textarea{
+	padding:6px;
+	font-size:15px;
+	border-radius:2px;
+	border:3px solid #98d0f1;
+	margin-top: 10px;
+	height:80px;
+	width:100%;
+}	
+
+button{
+	background:#2bc1f2;
+	border: none;
+	color: #fff;
+	width: 100%;
+	font-size: 22px;
+	font-weight: bolder;
+	padding: 8px 0 8px 0;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top:25px;
+}
+/*--------------------------------------
+		Advertisement div
+----------------------------------------*/
+.formget{
+	width:300px;
+	margin-top: 65px;
+	margin-left: 57px;
+	float: left;
+	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    /*float: left;*/
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}*/
+
+/*li a:hover:not(.active) {
+    background-color: #ddd;
+}*/
+
+li:hover:not(.active) {
+    background-color: #ddd;
+}
+
+/*li.active a {
+    color: white;
+    
+}*/
+
+li.active {
+    color: white;
+    background-color: #16a085;
+}
+ 

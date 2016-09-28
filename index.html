@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laravel</title>
+
+        <!-- <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css"> -->
+     <!--<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="css/slider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/slider.js"></script>
+        
+    </head>
+
+    <body>
+ 	<div id="slider" style="right:-342px;">
+          
+		<div id="sidebar">
+		          <!-- Nav tabs -->
+		          <ul  class="nav nav-tabs tabs-left sideways">
+		            <li class="active" data-toggle="#home-v">Form</li>
+		            <li data-toggle="#profile-v">Profile</li>
+		            <li data-toggle="#messages-v">Messages</li>
+		          </ul>
+		</div>
+
+          <div id="header">
+
+		      <div  class="col-sm-6">
+		        <h3>Left Tabs</h3>
+		        <hr/>
+		        
+
+		        <div class="col-xs-9">
+		          <!-- Tab panes -->
+		          <div class="tab-content">
+		            <div class="tab-pane active" id="home-v">
+		            <form action="http://www.onlinepondiuni.edu.in/lead-capture/" name="learn-more" id="learn-more" method="POST">
+							          <h5 id="head-element" name="head-element">For Admissions, Enroll Now!</h5>
+							          <input type="email" name="emailId" id="emailId2" placeholder="Email address" >
+							          <div id="emailError2" style="margin-top:-15px;font-size:12px;display:none"> </div>
+							          <input type="text" id="name2" name="name" placeholder="Full Name" title="Full Name">
+							          <div id="nameError2" style="margin-top:-15px;font-size:12px;display:none"> </div>
+							          <input type="tel" id="phoneNumber2" name="phoneNumber" placeholder="Phone Number" maxlength="13" onkeypress="return isNumberKey(event)">
+							          <div id="phoneError2" style="margin-top:-15px;font-size:12px;display:none"> </div>
+							          <div id = "image-load"></div>
+							          <input id="courseSelection" name="courseSelection" title="Course" type="hidden" value="" />
+							          <input id='redirectionUrl' type='text' style='display:none;' name='redirectionUrl' value='/' />
+							          <input type='hidden' style='display:none;' name='leadGroup' value='pondi' />
+							          <input type="submit" class="button" onclick="return validatePhone()" value = "SUBMIT"/>
+						          </form></div>
+		            <div class="tab-pane" id="profile-v">Profile Tab.</div>
+		            <div class="tab-pane" id="messages-v">Messages Tab.</div>
+		          </div>
+		        </div>
+
+		        <div class="clearfix"></div>
+
+		      </div>
+
+        </div>
+      </div>
+  <div class="home-body ">
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Test Slide left Div Demo!</h1>
+        <p>Some text here</p>
+        <hr/>
+      </div>
+    </div>
+    <div style="display:none" id="theTarget"></div>
+
+    <div class="container">
+    
+      <div id="lipsum">
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque nibh vel dui ultricies convallis. Praesent varius tellus eget ex consectetur, non consectetur dui pulvinar. Suspendisse purus lorem, aliquam aliquet viverra vitae, tincidunt eu metus. Vivamus mollis erat eget lacus convallis, ac lacinia enim imperdiet. Etiam interdum felis magna, quis blandit lorem iaculis non. Nunc lacus libero, consectetur et diam et, bibendum egestas massa. Sed non dolor vestibulum, tincidunt justo eu, tristique mi. Vestibulum non ligula sed mi ultrices viverra a sed nunc.
+		</p>
+		<p>
+		Ut rhoncus in purus ac condimentum. Duis scelerisque nisl ac massa porttitor, vel fermentum libero finibus. Proin sed tellus efficitur, tincidunt turpis et, tincidunt lectus. Vestibulum fringilla vulputate auctor. Cras ac nulla aliquam, lacinia odio ac, vestibulum sapien. Pellentesque euismod sagittis magna a fermentum. Vestibulum eu mauris leo. Quisque tempus ipsum eget nisi interdum facilisis. Vivamus non rutrum risus. Aenean viverra risus eget orci facilisis, eget varius magna mattis. Nulla tempor vestibulum felis, vel tincidunt ex tincidunt ut. Curabitur lobortis, eros eu semper laoreet, dui magna egestas urna, ac lobortis massa augue vulputate ligula.
+		</p>
+		<p>
+		Mauris ut metus sed diam luctus lacinia. Suspendisse rutrum, diam eu vulputate cursus, augue orci commodo urna, quis tincidunt enim nisl eu tortor. Nunc tincidunt sagittis ante. Maecenas sagittis ac nunc ac venenatis. Nullam vitae ornare risus. Nulla porttitor nulla sed molestie mollis. Quisque accumsan dui at velit semper ultrices et nec nisl.
+		</p>
+		<p>
+		Nullam dictum aliquam odio, ut porta purus sollicitudin in. Donec dignissim tincidunt consequat. Donec eget ex varius, mollis risus id, vehicula metus. Etiam maximus, sapien a mollis efficitur, ex mauris sagittis diam, quis tempor elit lectus sed tortor. Integer rhoncus convallis erat sed faucibus. Ut vehicula ipsum eget massa rhoncus, sed venenatis sem imperdiet. Sed lobortis augue semper magna blandit fringilla. Donec quis iaculis orci, a laoreet justo. Nulla suscipit hendrerit lobortis. Integer eget faucibus libero. Sed eu urna venenatis, consectetur odio in, tincidunt dui. Mauris scelerisque aliquam risus, sit amet convallis nisl tincidunt a. Vivamus tellus mi, eleifend ut velit in, iaculis tempor nulla. Donec sodales nunc at quam gravida consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst.
+		</p>
+		<p>
+		Aliquam at tristique urna. Cras et odio ac ligula vehicula egestas. Mauris velit urna, rhoncus a nunc non, pulvinar laoreet ex. Nulla facilisi. Integer pretium neque id gravida semper. Mauris quis blandit ipsum, vitae sagittis sem. Integer congue nunc ac pharetra blandit. Etiam vitae convallis mi. Etiam semper risus at velit consequat consequat. Proin elementum mi eget vestibulum cursus. Mauris facilisis pharetra erat, at molestie turpis ultricies at.
+		</p>
+	</div>
+	      <div id="lipsum">
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque nibh vel dui ultricies convallis. Praesent varius tellus eget ex consectetur, non consectetur dui pulvinar. Suspendisse purus lorem, aliquam aliquet viverra vitae, tincidunt eu metus. Vivamus mollis erat eget lacus convallis, ac lacinia enim imperdiet. Etiam interdum felis magna, quis blandit lorem iaculis non. Nunc lacus libero, consectetur et diam et, bibendum egestas massa. Sed non dolor vestibulum, tincidunt justo eu, tristique mi. Vestibulum non ligula sed mi ultrices viverra a sed nunc.
+		</p>
+		<p>
+		Ut rhoncus in purus ac condimentum. Duis scelerisque nisl ac massa porttitor, vel fermentum libero finibus. Proin sed tellus efficitur, tincidunt turpis et, tincidunt lectus. Vestibulum fringilla vulputate auctor. Cras ac nulla aliquam, lacinia odio ac, vestibulum sapien. Pellentesque euismod sagittis magna a fermentum. Vestibulum eu mauris leo. Quisque tempus ipsum eget nisi interdum facilisis. Vivamus non rutrum risus. Aenean viverra risus eget orci facilisis, eget varius magna mattis. Nulla tempor vestibulum felis, vel tincidunt ex tincidunt ut. Curabitur lobortis, eros eu semper laoreet, dui magna egestas urna, ac lobortis massa augue vulputate ligula.
+		</p>
+		<p>
+		Mauris ut metus sed diam luctus lacinia. Suspendisse rutrum, diam eu vulputate cursus, augue orci commodo urna, quis tincidunt enim nisl eu tortor. Nunc tincidunt sagittis ante. Maecenas sagittis ac nunc ac venenatis. Nullam vitae ornare risus. Nulla porttitor nulla sed molestie mollis. Quisque accumsan dui at velit semper ultrices et nec nisl.
+		</p>
+		<p>
+		Nullam dictum aliquam odio, ut porta purus sollicitudin in. Donec dignissim tincidunt consequat. Donec eget ex varius, mollis risus id, vehicula metus. Etiam maximus, sapien a mollis efficitur, ex mauris sagittis diam, quis tempor elit lectus sed tortor. Integer rhoncus convallis erat sed faucibus. Ut vehicula ipsum eget massa rhoncus, sed venenatis sem imperdiet. Sed lobortis augue semper magna blandit fringilla. Donec quis iaculis orci, a laoreet justo. Nulla suscipit hendrerit lobortis. Integer eget faucibus libero. Sed eu urna venenatis, consectetur odio in, tincidunt dui. Mauris scelerisque aliquam risus, sit amet convallis nisl tincidunt a. Vivamus tellus mi, eleifend ut velit in, iaculis tempor nulla. Donec sodales nunc at quam gravida consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst.
+		</p>
+		<p>
+		Aliquam at tristique urna. Cras et odio ac ligula vehicula egestas. Mauris velit urna, rhoncus a nunc non, pulvinar laoreet ex. Nulla facilisi. Integer pretium neque id gravida semper. Mauris quis blandit ipsum, vitae sagittis sem. Integer congue nunc ac pharetra blandit. Etiam vitae convallis mi. Etiam semper risus at velit consequat consequat. Proin elementum mi eget vestibulum cursus. Mauris facilisis pharetra erat, at molestie turpis ultricies at.
+		</p>
+	</div>
+	      <div id="lipsum">
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque nibh vel dui ultricies convallis. Praesent varius tellus eget ex consectetur, non consectetur dui pulvinar. Suspendisse purus lorem, aliquam aliquet viverra vitae, tincidunt eu metus. Vivamus mollis erat eget lacus convallis, ac lacinia enim imperdiet. Etiam interdum felis magna, quis blandit lorem iaculis non. Nunc lacus libero, consectetur et diam et, bibendum egestas massa. Sed non dolor vestibulum, tincidunt justo eu, tristique mi. Vestibulum non ligula sed mi ultrices viverra a sed nunc.
+		</p>
+		<p>
+		Ut rhoncus in purus ac condimentum. Duis scelerisque nisl ac massa porttitor, vel fermentum libero finibus. Proin sed tellus efficitur, tincidunt turpis et, tincidunt lectus. Vestibulum fringilla vulputate auctor. Cras ac nulla aliquam, lacinia odio ac, vestibulum sapien. Pellentesque euismod sagittis magna a fermentum. Vestibulum eu mauris leo. Quisque tempus ipsum eget nisi interdum facilisis. Vivamus non rutrum risus. Aenean viverra risus eget orci facilisis, eget varius magna mattis. Nulla tempor vestibulum felis, vel tincidunt ex tincidunt ut. Curabitur lobortis, eros eu semper laoreet, dui magna egestas urna, ac lobortis massa augue vulputate ligula.
+		</p>
+		<p>
+		Mauris ut metus sed diam luctus lacinia. Suspendisse rutrum, diam eu vulputate cursus, augue orci commodo urna, quis tincidunt enim nisl eu tortor. Nunc tincidunt sagittis ante. Maecenas sagittis ac nunc ac venenatis. Nullam vitae ornare risus. Nulla porttitor nulla sed molestie mollis. Quisque accumsan dui at velit semper ultrices et nec nisl.
+		</p>
+		<p>
+		Nullam dictum aliquam odio, ut porta purus sollicitudin in. Donec dignissim tincidunt consequat. Donec eget ex varius, mollis risus id, vehicula metus. Etiam maximus, sapien a mollis efficitur, ex mauris sagittis diam, quis tempor elit lectus sed tortor. Integer rhoncus convallis erat sed faucibus. Ut vehicula ipsum eget massa rhoncus, sed venenatis sem imperdiet. Sed lobortis augue semper magna blandit fringilla. Donec quis iaculis orci, a laoreet justo. Nulla suscipit hendrerit lobortis. Integer eget faucibus libero. Sed eu urna venenatis, consectetur odio in, tincidunt dui. Mauris scelerisque aliquam risus, sit amet convallis nisl tincidunt a. Vivamus tellus mi, eleifend ut velit in, iaculis tempor nulla. Donec sodales nunc at quam gravida consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst.
+		</p>
+		<p>
+		Aliquam at tristique urna. Cras et odio ac ligula vehicula egestas. Mauris velit urna, rhoncus a nunc non, pulvinar laoreet ex. Nulla facilisi. Integer pretium neque id gravida semper. Mauris quis blandit ipsum, vitae sagittis sem. Integer congue nunc ac pharetra blandit. Etiam vitae convallis mi. Etiam semper risus at velit consequat consequat. Proin elementum mi eget vestibulum cursus. Mauris facilisis pharetra erat, at molestie turpis ultricies at.
+		</p>
+	</div>      <div id="lipsum">
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque nibh vel dui ultricies convallis. Praesent varius tellus eget ex consectetur, non consectetur dui pulvinar. Suspendisse purus lorem, aliquam aliquet viverra vitae, tincidunt eu metus. Vivamus mollis erat eget lacus convallis, ac lacinia enim imperdiet. Etiam interdum felis magna, quis blandit lorem iaculis non. Nunc lacus libero, consectetur et diam et, bibendum egestas massa. Sed non dolor vestibulum, tincidunt justo eu, tristique mi. Vestibulum non ligula sed mi ultrices viverra a sed nunc.
+		</p>
+		<p>
+		Ut rhoncus in purus ac condimentum. Duis scelerisque nisl ac massa porttitor, vel fermentum libero finibus. Proin sed tellus efficitur, tincidunt turpis et, tincidunt lectus. Vestibulum fringilla vulputate auctor. Cras ac nulla aliquam, lacinia odio ac, vestibulum sapien. Pellentesque euismod sagittis magna a fermentum. Vestibulum eu mauris leo. Quisque tempus ipsum eget nisi interdum facilisis. Vivamus non rutrum risus. Aenean viverra risus eget orci facilisis, eget varius magna mattis. Nulla tempor vestibulum felis, vel tincidunt ex tincidunt ut. Curabitur lobortis, eros eu semper laoreet, dui magna egestas urna, ac lobortis massa augue vulputate ligula.
+		</p>
+		<p>
+		Mauris ut metus sed diam luctus lacinia. Suspendisse rutrum, diam eu vulputate cursus, augue orci commodo urna, quis tincidunt enim nisl eu tortor. Nunc tincidunt sagittis ante. Maecenas sagittis ac nunc ac venenatis. Nullam vitae ornare risus. Nulla porttitor nulla sed molestie mollis. Quisque accumsan dui at velit semper ultrices et nec nisl.
+		</p>
+		<p>
+		Nullam dictum aliquam odio, ut porta purus sollicitudin in. Donec dignissim tincidunt consequat. Donec eget ex varius, mollis risus id, vehicula metus. Etiam maximus, sapien a mollis efficitur, ex mauris sagittis diam, quis tempor elit lectus sed tortor. Integer rhoncus convallis erat sed faucibus. Ut vehicula ipsum eget massa rhoncus, sed venenatis sem imperdiet. Sed lobortis augue semper magna blandit fringilla. Donec quis iaculis orci, a laoreet justo. Nulla suscipit hendrerit lobortis. Integer eget faucibus libero. Sed eu urna venenatis, consectetur odio in, tincidunt dui. Mauris scelerisque aliquam risus, sit amet convallis nisl tincidunt a. Vivamus tellus mi, eleifend ut velit in, iaculis tempor nulla. Donec sodales nunc at quam gravida consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst.
+		</p>
+		<p>
+		Aliquam at tristique urna. Cras et odio ac ligula vehicula egestas. Mauris velit urna, rhoncus a nunc non, pulvinar laoreet ex. Nulla facilisi. Integer pretium neque id gravida semper. Mauris quis blandit ipsum, vitae sagittis sem. Integer congue nunc ac pharetra blandit. Etiam vitae convallis mi. Etiam semper risus at velit consequat consequat. Proin elementum mi eget vestibulum cursus. Mauris facilisis pharetra erat, at molestie turpis ultricies at.
+		</p>
+	</div>
+</div>
+
+</div>
+<script type="text/javascript">
+        	$(document).ready(function(){
+	        		
+        			tab_pane_toggller();
+        			sliderActivate();
+
+        			$('li').click(function(){
+        				console.log('nav');
+        				var curRef = $(this);
+        				navbtnHandller(curRef);
+        				tabHandller(curRef.attr('data-toggle'));
+        			});
+        			
+        	});
+        	$(window).on('scroll',function() {
+		  				sliderActivate();
+					});
+        </script>
+
+</body>
